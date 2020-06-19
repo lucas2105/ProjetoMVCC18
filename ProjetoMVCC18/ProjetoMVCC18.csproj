@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\tbl_clienteC18BLL.cs" />
     <Compile Include="DAL\DALMVC.cs" />
     <Compile Include="DTO\tbl_clienteC18DTO.cs" />
     <Compile Include="UI\Form1.cs">
@@ -82,8 +83,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BLL\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
